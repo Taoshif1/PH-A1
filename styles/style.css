@@ -1,0 +1,68 @@
+/*common styles*/
+.blue-clr{
+    color: #4E47FF;       
+}
+
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.raleway-bold{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn-primary {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/*nav styles here*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header-logo{
+    margin: 50px 150px;
+    width: 99px;
+    height: 51px;
+    font-size:50px;
+    font-weight: 900;
+}
+.btn1{
+    margin-right: 200px;
+}
+
+/*hero styles here*/
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-title {
+    font-size: 68px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    width: 1719px;
+}
