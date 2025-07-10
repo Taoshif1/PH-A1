@@ -2,6 +2,11 @@
 .blue-clr{
     color: #4E47FF;       
 }
+.light-clr{
+    color: #252432;
+    font-size: 24px;
+    font-weight: 600;
+}
 
 .inter-normal{
     font-family: "Inter", sans-serif;
@@ -14,6 +19,13 @@
     font-weight: bold;
     font-style: normal;
 }
+.raleway-normal{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: rgba(37, 36, 50, 0.5);
+}
 
 .btn-primary {
     background-color: #4E47FF;
@@ -22,7 +34,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -68,4 +80,32 @@
     height: 900px;
     max-width: 1900px;
     margin: 0 auto;
+}
+
+/*main styles here*/
+/*Actions section styles*/
+.action-section {
+    display: flex;
+    padding: 80px 140px;
+    justify-content: space-between;
+    margin: 100px 120px;
+}
+
+.act-img{
+    width: 400px;
+    height: 300;
+    background-size: cover;
+    background-position: right;
+    margin-right: 120px;
+    margin-left: 220px;
+    border-radius: 48px;
+}
+
+.herosec-title {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.herosec-p {
+    font-size: 24px;
+    margin-bottom: 25px;
 }
