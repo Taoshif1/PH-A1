@@ -28,6 +28,8 @@
 
 /*nav styles here*/
 .header-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +67,5 @@
     background-position: center;
     height: 850px;
     max-width: 1900px;
+    margin: 0 auto;
 }
