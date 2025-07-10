@@ -64,5 +64,5 @@
     background-size: cover;
     background-position: center;
     height: 850px;
-    width: 1719px;
+    max-width: 1900px;
 }
