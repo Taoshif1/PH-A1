@@ -1,4 +1,7 @@
 /*common styles*/
+.grey-clr{
+    color: grey;
+}
 .blue-clr{
     color: #4E47FF;       
 }
@@ -84,20 +87,17 @@
 
 /*main styles here*/
 /*Actions section styles*/
-.action-section {
+.action-section-container {
+    max-width: 1200px;       
+    margin: 100px auto; 
     display: flex;
-    padding: 80px 140px;
-    justify-content: space-between;
-    margin: 100px 120px;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
 }
 
-.act-img{
+.act-img {
     width: 400px;
-    height: 300;
-    background-size: cover;
-    background-position: right;
-    margin-right: 120px;
-    margin-left: 220px;
     border-radius: 48px;
 }
 
@@ -108,4 +108,39 @@
 .herosec-p {
     font-size: 24px;
     margin-bottom: 25px;
+}
+
+/* Users section styles */
+.users-section {
+    background-color: #f0f0ff; 
+    padding: 40px 20px; 
+    margin: 125px 150px;
+    border-radius: 24px;
+}
+.users-data{
+    display: flex;
+
+}
+.user-title {
+    font-size: 42px;
+    color: #252432;
+    text-align: center; /* This is all you need to center it */
+    margin-bottom: 50px; /* Adds space below the title */
+}
+.users-data {
+    display: flex;
+    justify-content: space-around; /* This spaces the 3 items evenly */
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the flex container */
+    text-align: center; /* Centers the text within each flex item */
+}
+.user-data { /* Selects the h3 inside the div */
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0; /* Remove all default margins */
+}
+.users-data p {
+    font-size: 18px;
+    margin: 0; /* Remove all default margins */
 }
