@@ -3,7 +3,10 @@
     box-sizing: border-box;
 }
 .grey-clr{
-    color: grey;
+    color: rgb(128, 128, 128);
+}
+.lightgrey-clr{
+    color: rgba(128, 128, 128, 0.171);
 }
 .blue-clr{
     color: #4E47FF;       
@@ -53,6 +56,7 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 /*nav styles here*/
@@ -99,7 +103,8 @@
     margin: 0 auto;
 }
 
-/*main styles here*/
+/*main styles starts here*/
+
 /*Actions section styles*/
 .action-section-container {
     max-width: 1200px;       
@@ -157,6 +162,71 @@
 .users-data p {
     font-size: 18px;
     margin: 0; 
+}
+
+/*challenge/Feedback section*/
+
+.feedback-section {
+    max-width: 1200px;
+    margin: 150px auto;
+}
+
+.feedback-section .section-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.feedback-cards-container {
+    display: flex;
+    gap: 30px; 
+}
+
+.feedback-card {
+    flex: 1; 
+    border: 1px solid #EAEAEA;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.feedback-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.feedback-card > p { 
+    color: #413e3e;
+    line-height: 1.6;
+    min-height: 80px; 
+    font-weight: 500;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    margin-top: 5px;
+}
+
+.reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.reviewer-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+.review-date {
+    font-size: 14px;
+    color: #c5bebe;
 }
 
 /* Extra section styles */
@@ -229,6 +299,7 @@
     font-size: 18px;
     padding: 18px;
 }
+/*main styles ends here*/
 
 /* Footer styles */
 .footer-container {
@@ -266,6 +337,13 @@
     color: #8987A1;
     font-size: 18px;
     margin-top: 40px; 
+}
+
+/* Hover effect */
+.btn-primary:hover {
+    background-color: #ffc107; 
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 
