@@ -80,24 +80,24 @@ Right Side:
 Label + Input for Name, Email & Message
 Get in Touch Button -->                
 
-        <section>
-            <div>
-                <h2>Let’s Get In Touch</h2>
+        <section class="form-section">
+            <div class="form-left">
+                <h2 class="raleway-bold form-title">Let's Get In Touch</h2>
             </div>
             <div>
-            <form>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="example@mail.com" required>
+                
+            <form class="form-right">
+                <label class="inter-medium" for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com">
 
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <label class="inter-medium" for="name">Name</label>
+                <input type="text" id="name" placeholder="Full Name">
 
-                <label for="msg">Message</label>
-                <input type="text" id="msg" name="msg" placeholder="Your message here...">
+                <label class="inter-medium" for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
 
-                    <button class="btn-primary">Get in Touch</button>
-                </form>
-            </div>
+                <button type="submit" class="btn-primary">Get in Touch</button>
+            </form>
         </section>
 
     </main>

@@ -1,4 +1,7 @@
 /*common styles*/
+*{
+    box-sizing: border-box;
+}
 .grey-clr{
     color: grey;
 }
@@ -15,6 +18,11 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+.inter-medium{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 .raleway-bold{
     font-family: "Raleway", sans-serif;
@@ -130,31 +138,31 @@
 .user-title {
     font-size: 42px;
     color: #252432;
-    text-align: center; /* This is all you need to center it */
-    margin-bottom: 50px; /* Adds space below the title */
+    text-align: center; 
+    margin-bottom: 50px;
 }
 .users-data {
     display: flex;
-    justify-content: space-around; /* This spaces the 3 items evenly */
+    justify-content: space-around; 
     max-width: 1200px;
-    margin: 0 auto; /* Centers the flex container */
-    text-align: center; /* Centers the text within each flex item */
+    margin: 0 auto; 
+    text-align: center; 
 }
-.user-data { /* Selects the h3 inside the div */
+.user-data { 
     color: #4E47FF;
     font-size: 80px;
     font-weight: 700;
-    margin: 0; /* Remove all default margins */
+    margin: 0; 
 }
 .users-data p {
     font-size: 18px;
-    margin: 0; /* Remove all default margins */
+    margin: 0; 
 }
 
 /* Extra section styles */
 .extra-section {
-    padding: 40px 20px; 
-    margin: 125px 150px;
+    max-width: 1140px;
+    margin: 125px auto;
     border-radius: 24px;
     text-align: center;
     display: flex;
@@ -174,3 +182,56 @@
     padding: 20px;
     margin:  auto;
 }
+
+/*Form Styles*/
+.form-section {
+    max-width: 1140px;
+    margin: 150px auto; 
+    display: flex;
+    align-items: center;
+    gap: 100px; 
+}
+
+.form-left {
+    flex-basis: 50%; 
+}
+
+.form-title {
+    font-size: 80px; 
+    font-weight: bold;
+    line-height: 1.2; 
+}
+
+.form-right {
+    flex-basis: 50%; 
+}
+
+.form-right label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-right input,
+.form-right textarea {
+    width: 100%;
+    background-color: #FCFCFD;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.form-right .btn-primary {
+    width: 100%;
+    font-size: 18px;
+    padding: 18px;
+}
+
+/* Footer styles */
+
+
+
+
